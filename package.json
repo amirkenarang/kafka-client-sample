@@ -1,0 +1,31 @@
+{
+  "name": "kafka-client-sample",
+  "version": "1.0.0",
+  "description": "This is a sample application for test Kafka",
+  "author": "Amir Kenarang <amir.kenarang@gmail.com>",
+  "main": "producer.js",
+  "scripts": {
+    "produce": "node producer.js",
+    "consume": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirkenarang/kafka-client-sample.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Kafka",
+    "Javascript",
+    "kafkajs",
+    "producer",
+    "consumer"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amirkenarang/kafka-client-sample/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "kafkajs": "^2.2.4"
+  }
+}
