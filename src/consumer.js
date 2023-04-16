@@ -2,7 +2,7 @@
 
 const kafka = require("./modules/kafka");
 
-const consumer = kafka.consumer({ groupId: "test-group" });
+const consumer = kafka.consumer({ groupId: process.env["KAFKA_GROUP"] });
 
 const run = async () => {
   await consumer.connect();

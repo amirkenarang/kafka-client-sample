@@ -5,8 +5,8 @@
   "author": "Amir Kenarang <amir.kenarang@gmail.com>",
   "main": "producer.js",
   "scripts": {
-    "produce": "node producer.js",
-    "consume": "node consumer.js"
+    "produce": "node src/producer.js",
+    "consume": "node src/consumer.js"
   },
   "repository": {
     "type": "git",
