@@ -29,8 +29,7 @@ yarn install
 ## Start Producer
 
 The is a class to check producer connection is success.
-
-Run this:
+Create `.env` file from `.env.example` and set kafka server address then run this:
 
 ```bash
 npm run produce
@@ -40,7 +39,7 @@ npm run produce
 
 The is a class to check producer connection is success.
 
-Run this:
+Create `.env` file from `.env.example` and set kafka server address then run this:
 
 ```bash
 npm run consume
